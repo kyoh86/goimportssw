@@ -1,2 +1,3 @@
 # goimportssw
-Shorthand for `gofmt -s -w $1 &amp;&amp; goimports -w $1
+
+Shorthand for `gofmt -s -w $1 && goimports -w $1`
