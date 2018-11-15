@@ -2,5 +2,5 @@
 
 set -euC
 
-gofmt -s -w "$1"
-goimports -w "$1"
+gofmt -s -w $@
+goimports -w $@
